@@ -1,0 +1,10 @@
+LICENSE
+
+-- Static Rendering (here, with SVG backend)
+-- import Diagrams.Backend.SVG
+-- import qualified Diagrams.Prelude as D
+-- import Diagrams.Prelude hiding (Segment, white, Point, Trail'(Line))
+-- diagrams, arithmoi >= 0.4 && < 0.4.1.1, diagrams-svg, diagrams-lib
+-- "svg" -> renderSVG "test.svg" (Width 500.0) (circle 1 :: Diagram B R2)
+--   "s"   -> renderSVG "test.svg" (Width 500.0) (foldl1' mappend $ map fromOffsets $ map toVertice $ take 1000 s)
+-- where toVertice ((p1x,p1y),(p2x,p2y)) = [ r2 (float2Double p1x, float2Double p1y), r2 (float2Double p2x, float2Double p2y)]
